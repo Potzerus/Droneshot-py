@@ -91,3 +91,5 @@ class Sensor(Component):
         "chemical": 0,
     }
 
+    def __init__(self, drone):
+        super().__init__(drone)
