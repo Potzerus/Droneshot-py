@@ -1,0 +1,35 @@
+{
+  "Overclocked Analysis I": {
+    "modifiers": {
+      "brain": {
+        "analysis": {
+          "pre_add": 2
+        },
+        "energy drain": {
+          "pre_add": 2
+        }
+      }
+    }
+  },
+  "Solar Panel": {
+    "modifiers": {
+      "generator": {
+        "efficiency": {
+          "pre_add": 5
+        },
+        "max capacity": {
+          "pre_add": 10
+        }
+      }
+    },
+    "hooks": [
+      {
+        "mod_attr": {
+          "attr": "fuel",
+          "value": "sunlight",
+          "component": "generator"
+        }
+      }
+    ]
+  }
+}
