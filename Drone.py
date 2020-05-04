@@ -16,7 +16,9 @@ class Drone:
         self.projects = projects
         # Blueprints for drones/traits
         self.plans = plans
+        # All Stat Modifiers will be in here
         self.traits = traits
+        # Whatever else i cant fit into the other categories
         self.info = info
         self.components = {
             "brain": Brain(self),
