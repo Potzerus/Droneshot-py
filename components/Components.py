@@ -16,9 +16,9 @@ class Component:
 
 class Brain(Component):
     base_stats = {
-        # convert sensor input into data
+        # bandwidth of sensor inputs converted into data
         'analysis': 1,
-        # convert data into projects
+        # rate at which drone can convert data into projects
         'computation': 1,
         # how many other drones this can pilot
         'control': 0,

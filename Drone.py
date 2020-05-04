@@ -8,9 +8,11 @@ class Drone:
 
     def __init__(self, owner, data, projects, plans, traits, info):
         self.owner = owner
-        # Resource for creating projects and plans
+        # Resources for creating projects and plans
+        # Dictionary { String:Number, String:Number, ... }
         self.data = data
         # Executable Actions
+        # List[ dictionary, dictionary, ... ]
         self.projects = projects
         # Blueprints for drones/traits
         self.plans = plans
